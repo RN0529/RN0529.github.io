@@ -1,0 +1,92 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-family:Serif;
+}
+#toplist{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+a{
+    color: blue;
+    font-size: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+
+}
+
+#name{
+    text-align: center;
+    color: white;
+    
+    
+}
+
+#MyPic{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+
+}
+
+h1{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-size: 35px;
+    margin: 25px;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    border-color: white;
+
+
+}
+
+p{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    width: 70%;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+ul{
+    color: white;
+    font-size: 30px;
+    list-style:inherit;
+}
+
+#title{
+    color: white;
+    text-decoration: underline;
+}
+
+#skillsNtools{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    gap: 20px;
+}
+
+img{
+    width: 30%;
+    height: fit-content;
+}
+
