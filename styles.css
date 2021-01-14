@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     margin: 20px;
     font-family:Serif;
+    padding: 10%;
 }
 #toplist{
     text-decoration: underline;
@@ -11,13 +12,12 @@ body{
 }
 
 a{
-    color: blue;
+    color: white;
     font-size: 35px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     display: inline;
-
 }
 
 #name{
@@ -50,7 +50,14 @@ header{
 
 
 }
-
+#space{
+    display: inline;
+}
+.textAndLink{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 p{
     display: block;
     text-align: center;
