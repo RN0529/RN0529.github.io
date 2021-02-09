@@ -6,11 +6,25 @@ body{
     font-family:Serif;
     padding: 10%;
 }
+hr{
+    margin: 20px;
+}
 #toplist{
     text-decoration: underline;
     text-decoration-color: white;
 }
-
+#NavBar{
+    display: flex;
+    justify-content: center;
+}
+#NavBar li {
+    display: inline;
+    margin: 40px;
+}
+p{
+    line-height: 2;
+    letter-spacing: 4px;
+}
 a{
     color: white;
     font-size: 35px;
@@ -74,8 +88,12 @@ ul{
     font-size: 30px;
     list-style:inherit;
 }
+li{
+    margin: 15px;
+}
 
 #title{
+    margin: 20px;
     color: white;
     text-decoration: underline;
 }
