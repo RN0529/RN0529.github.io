@@ -9,18 +9,8 @@ body{
 hr{
     margin: 20px;
 }
-#toplist{
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-#NavBar{
-    display: flex;
-    justify-content: center;
-}
-#NavBar li {
-    display: inline;
-    margin: 40px;
-}
+
+
 p{
     line-height: 2;
     letter-spacing: 4px;
@@ -113,5 +103,19 @@ li{
 img{
     width: 30%;
     height: fit-content;
+}
+#NavBar{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+#NavBar li {
+    display: inline;
+    
+    margin: 20px;
+    margin-top: 0px;
+}
+#NavBar li a{
+    text-decoration: none;
 }
 
