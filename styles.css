@@ -134,6 +134,12 @@ img{
 }
 
 @media (max-width: 700px){
+    #content{
+        padding: 0px;
+    }
+    #MyPic{
+        height: 100px;
+    }
     .projects{
         flex-direction: column;
     }
