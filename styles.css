@@ -2,9 +2,23 @@ body{
     background-color: black;
     display: flex;
     flex-direction: column;
+    font-family:Serif;
+
+}
+#content{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     font-family:Serif;
     padding: 10%;
+    margin-top: 0px;
+    padding-top: 0px;  
+}
+nav{
+    background-color: black;
+    margin-bottom: 50px;
+    padding-top: 10px;
 }
 hr{
     margin: 20px;
@@ -37,6 +51,7 @@ a{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
+    height: 400px;
 
 }
 
@@ -101,7 +116,6 @@ li{
 }
 
 img{
-    width: 30%;
     height: fit-content;
 }
 #NavBar{
