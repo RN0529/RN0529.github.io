@@ -123,6 +123,7 @@ img{
     justify-content: flex-end;
     text-decoration: none;
 }
+ 
 #NavBar li {
     display: inline;
     
@@ -142,7 +143,8 @@ img{
         font-size: 15px;
     }
     image{
-        height: 100px
+        height: 100px;
+        width: 100%;
     }
     #MyPic{
         height: 100px;
@@ -157,6 +159,7 @@ img{
         font-size: 17px;
     }
     h1{
+        font-size: 20px;
         text-align: center;
     }
     
