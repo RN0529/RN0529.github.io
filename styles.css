@@ -133,7 +133,54 @@ img{
 #NavBar li a{
     text-decoration: none;
 }
+.noDec{
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+    flex-wrap: wrap;
 
+}
+.links >a{
+    margin-left: 0px;
+}
+@media (max-width: 1200px){
+    #content{
+        padding: 0px;
+        margin: 0px;
+    }
+    li{
+        font-size: 25px;
+    }
+    image{
+        height: 100px;
+        width: 100%;
+    }
+    #MyPic{
+        height: 100px;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    p{
+        font-size: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    a{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    
+}
 @media (max-width: 700px){
     #content{
         padding: 0px;
@@ -156,6 +203,8 @@ img{
         font-size: 15px;
         margin-left: 0px;
         margin-right: 0px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     a{
         font-size: 17px;
