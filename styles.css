@@ -1,10 +1,12 @@
 body{
     margin: 0%;
-    
-    background-image: url(mountains.jpg);
+    background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+    
+
 }
 
 
@@ -17,7 +19,8 @@ body{
     justify-content: space-evenly;
 }
 #name{
-   
+    padding-top: 10%;
+   padding-bottom: 20%;
     text-align: center;
 }
 #intro{
@@ -25,15 +28,15 @@ body{
 }
 #home{
     
+
     flex-wrap: wrap;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom: 10%;
+    
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: auto;
     flex-direction: row;
+    padding-bottom: 20%;
 }
 #nameDiv{
     padding-top: 10%;
@@ -42,9 +45,10 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 #buttonsHome{
+    margin-left: 10%;
     padding-top: 10%;
     width: fit-content;
     height: 400px;
@@ -66,16 +70,34 @@ body{
 
 h1{
     margin: 0px;
+    font-size: 40px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
+#projectsSectionTittle{
+    padding-top: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+#projects1{
+    height: 500px;
+    background-color: #4c5c96;
 
-#projects{
-    margin: 25%;
-    background-image: url("pink_rice.png");
+}
+#projects2{
+    height: 500px;
+    background: linear-gradient(to bottom right, #4c5c96 50%,#45558d 50%);
+}
+#projects3{
+    height: 500px;
+    background-color: #45558d;
 }
 
 p{
     margin: 0px;
+    color: white;
 }
 
 #emailTitle{
@@ -85,6 +107,7 @@ p{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+   
 }
 #email{
     text-align: center;
