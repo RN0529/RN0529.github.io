@@ -1,5 +1,10 @@
 body{
-    margin: 0px;
+    margin: 0%;
+    
+    background-image: url(mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 a{
     height: 20px;
@@ -13,30 +18,47 @@ a{
 #name{
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
+}
+#intro{
+    text-align: center;
 }
 #home{
-    height: 400px;
-    background-image: url(pink_rice.png);
+    
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
-    margin: 0px;
+    margin: auto;
     flex-direction: row;
 }
+#nameDiv{
+    width: fit-content;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 #buttonsHome{
+    width: fit-content;
+    padding-top: 10%;
     height: 400px;
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .homebtn{
     color: black;
     height: 50px;
     width: 200px;
     font-size: 25px;
-    margin: 20px;
 
 }
 
@@ -45,7 +67,10 @@ h1{
 }
 
 
-
+#projects{
+    margin: 25%;
+    background-image: url("pink_rice.png");
+}
 
 p{
     margin: 0px;
