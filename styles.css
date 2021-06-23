@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+}
+a{
+    height: 20px;
+    width: 20px;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+#name{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#home{
+    height: 400px;
+    background-image: url(pink_rice.png);
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    flex-direction: row;
+}
+#buttonsHome{
+    height: 400px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.homebtn{
+    color: black;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    margin: 20px;
+
+}
+
+h1{
+    margin: 0px;
+}
+
+
+
+
+p{
+    margin: 0px;
+}
