@@ -111,7 +111,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 500px;
+    height: 800px;
 }
 #emailDiv{
     display: flex;
