@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioWebsite</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="click.js"></script>
 </head>
     
     <body>
@@ -21,7 +22,7 @@
 
             <div id= "buttonsHome">
 
-                <Button class = "homebtn" >Projects</Button>
+                <Button class = "homebtn" id="toProjects" onClick="projectsOnClick()">Projects</Button>
                 <a href="Richard Ngo updated Resume 3_29_21 (1).pdf" target="_blank"><button class = "homebtn" >My Resume</button></a>
                 
                 <button class = "homebtn" >Contact</button>
@@ -43,18 +44,7 @@
         <div id="bottom">
             <h1 id="emailTitle">Get in touch!</h1>
             <div id="emailDiv">
-                <form id="email" action="mailto:richardngowork@gmail.com" method="post" enctype="text/plain">
-                    Name:<br>
-                    <input type="text" name="name"><br>
-                    E-mail:<br>
-                    <input type="text" name="mail"><br>
-                    Comment:<br>
-                    <input type="text" name="comment" size="50"><br><br>
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset">
-                </form>
-                
-                <div id="vl"></div>
+
                 <div id=logosDiv2>
                     <a href="https://www.linkedin.com/in/richard-ngo0529" target="_blank"><div class="wrapper"><img class="logo2" src="linkedin.png"><p>My linkedIn!</p></div></a>
                     <a href="https://github.com/RN0529" target="_blank"><div class = "wrapper"><img class ="logo2" src="gitlogo.png"><p>My Github!</p></div></a>
