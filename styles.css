@@ -103,13 +103,30 @@ p{
 #emailTitle{
     text-align: center;
 }
+#bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #emailDiv{
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: row;
+    
    
 }
 #email{
     text-align: center;
 
+}
+#vl{
+    border-left: 6px solid white;
+    height: 200px;
+
+}
+#logosDiv2{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
