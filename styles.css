@@ -85,6 +85,7 @@ h1{
     -webkit-text-stroke: 2px black;
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
 .aboutMeText{
     padding-top: 2%;
     -webkit-text-stroke: 0px;
@@ -114,7 +115,7 @@ h1{
     
 }
 #projectsSectionTittle{
-    padding-top: 5%;
+    padding-top: 10%;
     text-align: center;
     text-decoration: underline;
 }
@@ -127,8 +128,32 @@ h1{
     height: fit-content;
     background: linear-gradient(to bottom right, #4c5c96 50%,#45558d 50%);
 }
+.projectName{
+    margin-top: 3%;
+    text-align: center;
+}
+.description{
+    text-align: center;
+    font-size: 20px;
+    -webkit-text-stroke: 0px;
+    
+}
+
+#logosDiv3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+#linkp{
+    font-size: 20px;
+    -webkit-text-stroke: 0px;
+    text-align: center  ;
+    margin-top: 10%;
+}
+
 #projects3{
-    height: 500px;
+    height: fit-content;
     background-color: #45558d;
 }
 
@@ -173,7 +198,7 @@ p{
 }
 
 #logosDiv2{
-    height: 300px;
+    height: fit-content;
     text-align: center;
     padding-left: auto;
     width: 25%;
@@ -181,7 +206,25 @@ p{
     justify-content: space-evenly;
     flex-direction: column;
 }
+.projectdesc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.projectpic{
+    height: 40%;
+    width: 40%;
+    margin-left: 5%;
+}
+#textWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
 .wrapper{
+    margin: 20px;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
