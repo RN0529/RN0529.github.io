@@ -70,11 +70,11 @@ div{
     margin: 0%;
     
     font-size: 70px;
+    background-color: gainsboro;
     color: white;
     -webkit-text-stroke: 3px black;
     font-family: "Lucida Console", "Courier New", monospace;
-    background-color: transparent;
-    border-color: transparent;
+    
 
 }
 
