@@ -12,6 +12,10 @@ function aboutOnClick(){
     elmntToView = document.getElementById("projects1");
     elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
 }
+function upbtnonclick(){
+    elmntToView = document.getElementById("home");
+    elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}
 
 /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
 function openNav() {

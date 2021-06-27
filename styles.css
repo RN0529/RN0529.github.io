@@ -24,15 +24,19 @@ body{
     color: #f1f1f1;
 }
 .openbtn {
+    -webkit-text-stroke: 1px black;
     position: fixed;
     top: 0px;
     right: 0px;
-    font-size: 20px;
+    font-size: 25px;
     cursor: pointer;
-    background-color: #111;
+    background-color: transparent;
     color: white;
     padding: 10px 15px;
     border: none;
+  }
+  hr{
+      width: 100%;
   }
   
   .openbtn:hover {
@@ -40,11 +44,17 @@ body{
   } 
 .sidebar .closebtn {
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    
   }
+#whitex{
+    background-color: transparent;
+    border: transparent;
+    padding-bottom: 20px;
+}
 div{
     margin:0px;
 }
@@ -95,6 +105,20 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+#upButton{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: transparent;
+    border-color: transparent;
+  
+}
+#uparrow{
+    height: 50px;
+    width: 50px;
+    bottom: 0px;
+    right: 0px;
 }
 .homebtn{
     
