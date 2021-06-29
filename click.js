@@ -32,4 +32,5 @@ function openNav() {
   function closeNav() {
     document.getElementById("navbar").style.width = "0px";
     document.getElementById("body").style.paddingLeft = "0px";
+    document.getElementById("navbar").style.paddingLeft = "0px";
   }

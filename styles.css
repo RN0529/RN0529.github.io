@@ -10,6 +10,7 @@ body{
 }
 .navagation{
     padding-left: 15px;
+    padding-right: 1px;
     position: fixed;
     top: 0px;
     left: 0px;
