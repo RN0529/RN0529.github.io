@@ -49,10 +49,15 @@ body{
   .openbtn:hover {
     background-color: #444;
   } 
+  
+#whitex:hover {
+    background-color: gray;
+    
+  }
 .sidebar .closebtn {
     position: absolute;
     top: 0px;
-    left: 25px;
+    left: 0px;
     font-size: 36px;
     
     
