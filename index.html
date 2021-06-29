@@ -11,7 +11,7 @@
     
     <body id="body">
         <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>
-        <div class="navagation" id="navbar"> 
+        <nav class="navagation" id="navbar"> 
             <div id= "buttonsHome">
                 <button class="closebtn homebtn" id="whitex" onclick="closeNav()"><img id="uparrow" src="whitex.png" alt=""> <p>Close Sidebar</p></button>
                 <hr>
@@ -19,14 +19,14 @@
                 
                 <a href="Richard Ngo updated Resume 3_29_21 (1).pdf" target="_blank"><button class="homebtn">My Resume</button></a>
                 <hr>
-                <button class = "homebtn" onclick="homeOnClick()" >Home</button>
+                <button class = "homebtn home navbtn active" onclick="homeOnClick()" >Home</button>
                 <hr>
-                <button class = "homebtn" onclick="aboutOnClick()" >About me</button>
+                <button class = "homebtn about navbtn"  onclick="aboutOnClick()" >About me</button>
                 <hr>
-                <Button class = "homebtn" id="toProjects" onClick="projectsOnClick()">Projects</Button>
+                <Button class = "homebtn projects2 navbtn"   onClick="projectsOnClick()">Projects</Button>
                 <hr>
 
-                <button class = "homebtn" onclick="contactOnClick()" >Contact</button>
+                <button class = "homebtn bottom navbtn" cl onclick="contactOnClick()" >Contact</button>
                 <hr>
                 <div id=logosDiv>
                     <a href="https://www.linkedin.com/in/richard-ngo0529" target="_blank"><img class="logo" src="linkedin.png"></a>
@@ -35,9 +35,9 @@
                 </div>
                 <hr>
             </div>
-        </div>
+        </nav>
         <button id="upButton" onclick="upbtnonclick()"><img id="uparrow" src="Black_Up_Arrow.png" alt=""></button>
-        <div id="home">
+        <section id="home">
             <div id="nameDiv">
                 <h1 id="name">Hi Im Richard :)</h1>
                 <p>A computer science undergraduate.</p>
@@ -49,10 +49,10 @@
             </div>
 
             
-        </div>
+        </section>
 
         <div id="projects">
-            <section id="projects1">
+            <section id="about">
                 <h1 id="projectsSectionTittle">About me</h1>
                 <p class="aboutMeText">Hi, my name is Richard Ngo, and I have just become a 3rd-year Computer Science student at Hunter College.  I am hungry for opportunities to not only develop and enhance my computer science skills. But also an environment to collaborate and grow with my peers. </p>
                 <br>
@@ -109,6 +109,7 @@
 
 
     </body>
+    <script src="click.js"></script>
     
 
 

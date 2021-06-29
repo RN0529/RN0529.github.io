@@ -8,6 +8,7 @@ body{
     
 
 }
+
 .navagation{
     padding-left: 15px;
     padding-right: 1px;
@@ -199,7 +200,7 @@ h1{
     text-align: center;
     text-decoration: underline;
 }
-#projects1{
+#about{
     height: fit-content;
     background-color: #4c5c96;
 
@@ -252,7 +253,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 800px;
+    height: 100vh;
 }
 #emailDiv{
     display: flex;
@@ -321,4 +322,7 @@ p{
 }
 a{
     text-decoration: none;
+}
+.active{
+    color: black;
 }

@@ -1,8 +1,38 @@
+var parts = document.querySelectorAll('section');
+var navBtns = document.querySelectorAll('nav div .navbtn');
+console.log(parts);
+console.log(navBtns);
+window.addEventListener('scroll',()=>{
+    let current ='';
+    
+    parts.forEach( section=>{
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if(pageYOffset >= sectionTop -sectionHeight/3){
+            current = section.getAttribute('id');
+        }
+        
+    })
+    console.log(current)
+    navBtns.forEach(button =>{
+        button.classList.remove('active');
+        if(button.classList.contains(current)){
+            button.classList.add('active');
+        }
+
+    })
+})
+
+
+
+
+
 
 var elmntToView;
 function homeOnClick(){
     elmntToView = document.getElementById("home");
     elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+    
 }
 function projectsOnClick(){
     elmntToView = document.getElementById("projects2");
@@ -13,7 +43,7 @@ function contactOnClick(){
     elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
 }
 function aboutOnClick(){
-    elmntToView = document.getElementById("projects1");
+    elmntToView = document.getElementById("about");
     elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
 }
 function upbtnonclick(){
