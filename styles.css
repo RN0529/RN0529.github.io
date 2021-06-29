@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-   padding-left: 250px;
+   padding-left: 15%;
     
 
 }
@@ -13,7 +13,7 @@ body{
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 250px;
+    width: 15%;
     height: 100%;
     background-color: #2e3141; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -105,12 +105,12 @@ div{
 }
 #home{
     flex-wrap: wrap;
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     margin: auto;
     flex-direction: row;
-    padding-bottom: 20%;
+    
 }
 #nameDiv{
     padding-top: 10%;
