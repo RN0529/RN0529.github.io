@@ -1,5 +1,9 @@
 
 var elmntToView;
+function homeOnClick(){
+    elmntToView = document.getElementById("home");
+    elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}
 function projectsOnClick(){
     elmntToView = document.getElementById("projects2");
     elmntToView.scrollIntoView({ block: 'start',  behavior: 'smooth' });
