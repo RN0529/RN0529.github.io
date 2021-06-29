@@ -4,20 +4,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-   
+   padding-left: 250px;
     
 
 }
 .navagation{
+    padding-left: 15px;
     position: fixed;
     top: 0px;
-    right: 0px;
-    width: 0px;
+    left: 0px;
+    width: 250px;
     height: 100%;
-    background-color: #111; /* Black*/
+    background-color: #2e3141; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+.navagation #logosDiv{
+    justify-content: space-evenly;
+}
+.navagation #logosDiv img{
+    margin-left: 0px;
 }
 /* When you mouse over the navigation links, change their color */
 .navagation button:hover {
@@ -27,7 +34,7 @@ body{
     -webkit-text-stroke: 1px black;
     position: fixed;
     top: 0px;
-    right: 0px;
+    left: 0px;
     font-size: 25px;
     cursor: pointer;
     background-color: transparent;
@@ -45,15 +52,27 @@ body{
 .sidebar .closebtn {
     position: absolute;
     top: 0px;
-    right: 25px;
+    left: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    
     
   }
 #whitex{
     background-color: transparent;
     border: transparent;
     padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+#whitex p{
+    color: white;
+    -webkit-text-stroke: 0px black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#whitex img{
+    height: 20px;
+    width: 20px;
 }
 div{
     margin:0px;
@@ -80,10 +99,7 @@ div{
     text-align: center;
 }
 #home{
-    
-
     flex-wrap: wrap;
-    
     height: 100%;
     display: flex;
     justify-content: center;
@@ -120,10 +136,13 @@ div{
     bottom: 0px;
     right: 0px;
 }
+.homebtn:hover {
+    background-color: gray;
+  }
 .homebtn{
     
     margin: 0%;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     -webkit-text-stroke: 0px black;
     background-color: transparent;
