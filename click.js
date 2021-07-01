@@ -64,3 +64,13 @@ function openNav() {
     document.getElementById("body").style.paddingLeft = "0px";
     document.getElementById("navbar").style.paddingLeft = "0px";
   }
+
+  function closeDivOnClick() {
+    document.querySelector(".bg-modal").style.display = "none";
+    closeNav();
+  }
+
+  function holoEnOnclick() {
+    document.getElementById("holoenexpand").style.display = "flex";
+    closeNav();
+  }
