@@ -66,11 +66,19 @@ function openNav() {
   }
 
   function closeDivOnClick() {
-    document.querySelector(".bg-modal").style.display = "none";
+    document.getElementById("holoenexpand").style.display = "none";
+    closeNav();
+  }
+  function closeDivOnClick2(){
+      document.getElementById("EsportsLookoutDiv").style.display = "none";
     closeNav();
   }
 
   function holoEnOnclick() {
     document.getElementById("holoenexpand").style.display = "flex";
+    closeNav();
+  }
+  function esportsLookoutClick() {
+    document.getElementById("EsportsLookoutDiv").style.display = "flex";
     closeNav();
   }
