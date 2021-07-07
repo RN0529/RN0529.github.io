@@ -97,7 +97,7 @@ div{
     display: flex;
   
     justify-content: center;
-}
+}   
 #name{
     padding-top: 10%;
     padding-bottom: 5%;
@@ -246,7 +246,7 @@ h1{
 .projectsExampleDiv{
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     width: 50%;
     text-align: center;
     align-items: center;
@@ -303,6 +303,7 @@ p{
     flex-direction: column;
 }
 .projectdesc{
+    max-height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -310,6 +311,8 @@ p{
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
+    
+
 }
 .projectpic{
     height: 40%;
@@ -317,8 +320,9 @@ p{
     align-items: center;
 }
 #textWrapper{
+    height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 .wrapper{
@@ -355,12 +359,20 @@ a{
     
 }
 .modalContent{
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
     position: relative;
     width: 65%;
     height: fit-content;
+    min-height: 60%;
     max-height: 80%;
     background-color: #45558d;
 }
+.modalContent::-webkit-scrollbar {
+    display: none;
+}
+
 .closeDiv{
     top: 0px;
     right: 0px;
@@ -374,7 +386,8 @@ a{
  
 }
 #modlepic2{
-    height: 400px;
+    height: 500px;
+    margin-right: 5%;
 }
 #phone{
     flex-direction: row;
