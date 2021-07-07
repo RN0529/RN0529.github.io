@@ -315,8 +315,9 @@ p{
 
 }
 .projectpic{
-    height: 40%;
-    width: 40%;
+    height: fit-content;
+    max-height: 50%;
+    max-width: 50%;
     align-items: center;
 }
 #textWrapper{
