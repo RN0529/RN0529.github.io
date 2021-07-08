@@ -232,6 +232,7 @@ h1{
     font-size: 30px;
 }
 #logosDiv3{
+    margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
@@ -325,6 +326,7 @@ p{
 }
 .projectpic{
     height: fit-content;
+    width: fit-content;
     max-height: 50%;
     max-width: 50%;
     align-items: center;
@@ -435,5 +437,14 @@ a{
     #skillsLogoDiv{
         margin:auto;
         max-width: 80%;
+    }
+    #phone{
+        flex-direction: column;
+    }
+    .projectpic{
+        
+        max-height: 60%;
+        max-width: 60%;
+
     }
 }
