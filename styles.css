@@ -6,7 +6,7 @@ body{
     background-attachment: fixed;
     padding-left: 15%;
     background-color: lightgray;
-    max-width: 100%;
+   
     
 
 }
@@ -405,7 +405,10 @@ a{
 }
 
 
-@media (max-device-width:600px) {
+@media (max-device-width:1000px) {
+    body{
+        padding-left: 0%;
+    }
     .navagation{
         width: 0px;
     }
