@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
     padding-left: 15%;
     background-color: lightgray;
+    max-width: 100%;
     
 
 }
@@ -248,6 +249,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     background-color: #45558d;
+    flex-wrap: wrap;
 }
 .projectsExampleDiv{
     display:flex;
@@ -400,4 +402,35 @@ a{
 #phone{
     flex-direction: row;
     justify-content: space-around;
+}
+
+
+@media (max-device-width:600px) {
+    .navagation{
+        width: 0px;
+    }
+    #name{
+        padding-top: 20%;
+        
+    }
+    .aboutMeText{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    #projects3{
+        flex-direction: column;
+        margin-right: 0px;
+        padding-right: 0px;
+        align-items: center;
+    }
+    #skillsDiv{
+        text-align: center;
+        align-items: center;
+    }
+    #skillsLogoDiv{
+        margin:auto;
+        max-width: 80%;
+    }
 }
