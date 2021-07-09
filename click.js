@@ -107,7 +107,7 @@ function openNav() {
     closeNav();
   }
   
-  function esportsLookoutClick() {
+  function todoOnClick() {
     document.getElementById("todoListDiv").style.display = "flex";
     closeNav();
   }
