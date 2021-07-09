@@ -93,6 +93,10 @@ function openNav() {
       document.getElementById("EsportsLookoutDiv").style.display = "none";
     closeNav();
   }
+  function closeDivOnClick3(){
+    document.getElementById("todoListDiv").style.display = "none";
+  closeNav();
+}
 
   function holoEnOnclick() {
     document.getElementById("holoenexpand").style.display = "flex";
@@ -100,5 +104,10 @@ function openNav() {
   }
   function esportsLookoutClick() {
     document.getElementById("EsportsLookoutDiv").style.display = "flex";
+    closeNav();
+  }
+  
+  function esportsLookoutClick() {
+    document.getElementById("todoListDiv").style.display = "flex";
     closeNav();
   }
