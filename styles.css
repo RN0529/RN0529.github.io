@@ -1,3 +1,6 @@
+#test{
+    display: none;
+}
 body{
     margin: 0%;
     background-image: url(bg.jpg);
