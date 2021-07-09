@@ -418,6 +418,9 @@ a{
         padding-top: 20%;
         
     }
+    #nametitle{
+        font-size: 30px;
+    }
     .aboutMeText{
         font-size: 20px;
     }
@@ -444,11 +447,16 @@ a{
     .projectpic{
         
         max-height: 60%;
-        max-width: 60%;
+        width: 100%;
+        max-width: 100%;
 
     }
     .modalContent{
-        width: 100%;
+        width: 90%;
         max-height: 90%;
+    }
+    .projectsExampleDiv{
+        width: 90%;
+        padding-bottom: 40px;
     }
 }
