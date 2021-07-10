@@ -101,6 +101,10 @@ function closeDivOnClick4(){
   document.getElementById("LightandSound").style.display = "none";
 closeNav();
 }
+function closeDivOnClick5(){
+  document.getElementById("wasteland2Div").style.display = "none";
+closeNav();
+}
 
   function holoEnOnclick() {
     document.getElementById("holoenexpand").style.display = "flex";
@@ -119,5 +123,10 @@ closeNav();
   
   function LightAndSoundOnClick() {
     document.getElementById("LightandSound").style.display = "flex";
+    closeNav();
+  }
+  function wasteland2OnClick(){
+    
+    document.getElementById("wasteland2Div").style.display = "flex";
     closeNav();
   }
