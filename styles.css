@@ -431,6 +431,9 @@ a{
         margin-left: 5%;
         margin-right: 5%;
     }
+    .logoAndName{
+        margin-left: 0px;
+    }
     p{
         font-size: 20px;
     }
