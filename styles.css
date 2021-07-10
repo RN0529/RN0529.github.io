@@ -449,7 +449,7 @@ a{
     }
     #skillsLogoDiv{
         margin:auto;
-        max-width: 80%;
+        max-width: 100%;
     }
     #phone{
         flex-direction: column;
