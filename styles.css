@@ -426,6 +426,8 @@ a{
     }
     .aboutMeText{
         font-size: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     p{
         font-size: 20px;
