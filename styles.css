@@ -254,12 +254,13 @@ h1{
     justify-content: space-evenly;
     background-color: #45558d;
     flex-wrap: wrap;
+    padding-bottom: 10%;
 }
 .projectsExampleDiv{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 30%;
     text-align: center;
     align-items: center;
     height: fit-content + 40px;
@@ -279,8 +280,8 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: fit-content;
-    background-color: #2e3141;
+    height: 70vh;
+    background-color: #3f4e85;
 }
 #emailDiv{
     display: flex;

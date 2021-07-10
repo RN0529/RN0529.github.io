@@ -97,6 +97,10 @@ function openNav() {
     document.getElementById("todoListDiv").style.display = "none";
   closeNav();
 }
+function closeDivOnClick4(){
+  document.getElementById("LightandSound").style.display = "none";
+closeNav();
+}
 
   function holoEnOnclick() {
     document.getElementById("holoenexpand").style.display = "flex";
@@ -109,5 +113,11 @@ function openNav() {
   
   function todoOnClick() {
     document.getElementById("todoListDiv").style.display = "flex";
+    closeNav();
+  }
+
+  
+  function LightAndSoundOnClick() {
+    document.getElementById("LightandSound").style.display = "flex";
     closeNav();
   }
