@@ -211,12 +211,15 @@ h1{
 }
 #about{
     height: fit-content;
-    background-color: #4c5c96;
+    background-color: rgba(0,0,0,0.35);
 
+}
+#projects{
+    
 }
 #projects2{
     height: fit-content;
-    background: linear-gradient(to bottom right, #4c5c96 50%,#45558d 50%);
+    background-color: rgba(0,0,0,0.35);
 }
 .projectName{
     padding-top: 3%;
@@ -252,7 +255,7 @@ h1{
     height: fit-content;
     display: flex;
     justify-content: space-evenly;
-    background-color: #45558d;
+    background-color: rgba(0,0,0,0.35);
     flex-wrap: wrap;
     padding-bottom: 10%;
 }
@@ -281,7 +284,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     height: 90vh;
-    background-color: #3f4e85;
+    background-color: rgba(0,0,0,0.35);
 }
 #emailDiv{
     display: flex;
@@ -315,7 +318,7 @@ p{
     width: fit-content;
     display: flex;
     justify-content: space-evenly;
-    flex-direction: column;
+    flex-direction: row;
 }
 .projectdesc{
     max-height: 60%;
