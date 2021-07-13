@@ -71,9 +71,9 @@ function upbtnonclick(){
 function openNav() {
     if(window.screen.width < 1000){
       document.getElementById("navbar").style.width = "100%";
-    }else{
-      document.getElementById("navbar").style.width = "15%";
-      document.getElementById("body").style.paddingLeft = "15%";
+      document.getElementById("navbar").style.height = "100%";
+      document.getElementById("buttonsHome").style.flexDirection = "column"; 
+      document.getElementById("buttonsHome").style.height = "100%"; 
     }
 
   }
@@ -81,8 +81,6 @@ function openNav() {
   /* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
   function closeNav() {
     document.getElementById("navbar").style.width = "0px";
-    document.getElementById("body").style.paddingLeft = "0px";
-    document.getElementById("navbar").style.paddingLeft = "0px";
   }
 
   function closeDivOnClick() {
