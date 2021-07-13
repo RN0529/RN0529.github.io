@@ -170,7 +170,7 @@ div{
 .homebtn{
     height: 90%;
     margin: 0%;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     -webkit-text-stroke: 0px black;
     background-color: transparent;
@@ -377,7 +377,10 @@ a{
     text-decoration: none;
 }
 .active{
-    color: black;
+    background-color: gray;
+    text-decoration: underline;
+    text-decoration-color: black;
+
 }
 .bg-modal{
     width: 100%;
