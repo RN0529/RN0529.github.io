@@ -101,7 +101,7 @@ function closeDivOnClick4(){
 }
 function closeDivOnClick5(){
   document.getElementById("wasteland2Div").style.display = "none";
-closeNav();
+
 }
 
   function holoEnOnclick() {
