@@ -85,19 +85,19 @@ function openNav() {
 
   function closeDivOnClick() {
     document.getElementById("holoenexpand").style.display = "none";
-    closeNav();
+
   }
   function closeDivOnClick2(){
       document.getElementById("EsportsLookoutDiv").style.display = "none";
-    closeNav();
+
   }
   function closeDivOnClick3(){
     document.getElementById("todoListDiv").style.display = "none";
-  closeNav();
+
 }
 function closeDivOnClick4(){
   document.getElementById("LightandSound").style.display = "none";
-closeNav();
+
 }
 function closeDivOnClick5(){
   document.getElementById("wasteland2Div").style.display = "none";
@@ -106,25 +106,25 @@ closeNav();
 
   function holoEnOnclick() {
     document.getElementById("holoenexpand").style.display = "flex";
-    closeNav();
+    
   }
   function esportsLookoutClick() {
     document.getElementById("EsportsLookoutDiv").style.display = "flex";
-    closeNav();
+    
   }
   
   function todoOnClick() {
     document.getElementById("todoListDiv").style.display = "flex";
-    closeNav();
+    
   }
 
   
   function LightAndSoundOnClick() {
     document.getElementById("LightandSound").style.display = "flex";
-    closeNav();
+    
   }
   function wasteland2OnClick(){
     
     document.getElementById("wasteland2Div").style.display = "flex";
-    closeNav();
+    
   }
