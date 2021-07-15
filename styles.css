@@ -27,8 +27,8 @@ body{
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 8%;
-    background-color: #2e3141; /* Black*/
+    height: 6%;
+    background-color: rgba(46, 49, 65, .85); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
