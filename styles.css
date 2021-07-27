@@ -137,7 +137,7 @@ div{
     height: 400px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+   
     justify-content: flex-start;
 }
 #buttonsHome{
@@ -442,6 +442,9 @@ a{
 
 
 @media (max-device-width:1000px) {
+    iframe{
+        max-width: 80%;
+    }
     .openbtn{
         visibility: visible;
     }
