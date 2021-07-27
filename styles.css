@@ -163,6 +163,8 @@ div{
 }
 #resume{
     height: 100%;
+    text-align: center;
+    width: 100%;
 }
 .homebtn:hover {
     background-color: gray;
