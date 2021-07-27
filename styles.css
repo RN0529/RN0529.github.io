@@ -28,7 +28,7 @@ body{
     left: 0px;
     width: 100%;
     height: fit-content;
-    background-color: rgba(46, 49, 65, .85); /* Black*/
+    background-color: rgba(46, 49, 65, 1); /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 0px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
@@ -276,11 +276,16 @@ h1{
 .projectsExampleDiv{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 30%;
     text-align: center;
     align-items: center;
-    height: fit-content + 40px;
+    height: 70%;
+
+}
+#viewp{
+    color: black;
+    font-size: 40px;
 }
 p{
     margin: 0px;
@@ -322,13 +327,14 @@ p{
 .logo2{
     height: 50px;
     width: 50px;
+    margin-right: 20px;
     
 }
 
 #logosDiv2{
     height: fit-content;
     text-align: center;
-    padding-left: auto;
+    align-items: center;
     width: fit-content;
     display: flex;
     justify-content: space-evenly;
@@ -363,7 +369,7 @@ p{
     margin: 20px;
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 p{
@@ -376,6 +382,9 @@ p{
 }
 a{
     text-decoration: none;
+    text-align: center;
+    align-items: center;
+    width: fit-content;
 }
 .active{
     background-color: gray;
@@ -469,6 +478,9 @@ a{
     }
     p{
         font-size: 20px;
+    }
+    #viewp{
+        font-size: 30px;
     }
     #projects3{
         flex-direction: column;
