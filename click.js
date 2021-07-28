@@ -84,11 +84,24 @@ function openNav() {
   }
 
   function closeDivOnClick() {
+    
+    var iframe = document.getElementById("holoclipvid");
+
+    var iframeSrc = iframe.src;
+    iframe.src = iframeSrc;
     document.getElementById("holoenexpand").style.display = "none";
+    
 
   }
   function closeDivOnClick2(){
+    
+    var iframe = document.getElementById("esportsvid");
+
+    var iframeSrc = iframe.src;
+    iframe.src = iframeSrc;
+    
       document.getElementById("EsportsLookoutDiv").style.display = "none";
+      stopVideo();
 
   }
   function closeDivOnClick3(){
@@ -96,12 +109,22 @@ function openNav() {
 
 }
 function closeDivOnClick4(){
+  var iframe = document.getElementById("lightnsoundvid");
+
+    var iframeSrc = iframe.src;
+    iframe.src = iframeSrc;
   document.getElementById("LightandSound").style.display = "none";
 
 }
 function closeDivOnClick5(){
-  document.getElementById("wasteland2Div").style.display = "none";
 
+  
+  
+  var iframe = document.getElementById("wasteland2vid");
+    var iframeSrc = iframe.src;
+    iframe.src = iframeSrc;
+  
+  document.getElementById("wasteland2Div").style.display = "none";
 }
 
   function holoEnOnclick() {
