@@ -117,14 +117,17 @@ function closeDivOnClick4(){
 
 }
 function closeDivOnClick5(){
-
-  
-  
   var iframe = document.getElementById("wasteland2vid");
     var iframeSrc = iframe.src;
     iframe.src = iframeSrc;
   
   document.getElementById("wasteland2Div").style.display = "none";
+}
+function closeDivOnClick6(){
+  var iframe = document.getElementById("spacelandsVid");
+  var iframeSrc = iframe.src;
+  iframe.src = iframeSrc;
+  document.getElementById("spacelandsDiv").style.display = "none";
 }
 
   function holoEnOnclick() {
@@ -149,5 +152,10 @@ function closeDivOnClick5(){
   function wasteland2OnClick(){
     
     document.getElementById("wasteland2Div").style.display = "flex";
+    
+  }
+  function spacelandsOnClick(){
+    
+    document.getElementById("spacelandsDiv").style.display = "flex";
     
   }
